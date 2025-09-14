@@ -6,7 +6,7 @@
 
 [![GitHub Pages](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://wuwuzhijing.github.io/awesomeOriginLiterature/)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](CONTRIBUTING.md)
-[![License](https://img.shields.io/github/license/wuwuzhijing/swesomeOriginLiterature)](LICENSE)
+[![License](https://img.shields.io/github/license/wuwuzhijing/awesomeOriginLiterature)](LICENSE)
 
 一个开源的 **跨学科文献索引与可视化项目**，用于：
 - 🔎 持续收集各个领域的 **原始文献**（论文、专著、手稿）

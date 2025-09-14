@@ -4,7 +4,7 @@
 
 # 📚Literature Archive
 
-[![GitHub Pages](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://<你的用户名>.github.io/<仓库名>/)
+[![GitHub Pages](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://wuwuzhijing.github.io/awesomeOriginLiterature/)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](CONTRIBUTING.md)
 [![License](https://img.shields.io/github/license/<你的用户名>/<仓库名>)](LICENSE)
 

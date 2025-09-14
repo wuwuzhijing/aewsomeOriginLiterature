@@ -12,6 +12,12 @@
           "title": "Zur Elektrodynamik bewegter Körper",
           "year": 1905,
           "link": "https://einsteinpapers.press.princeton.edu/vol2-doc/154"
+        },
+        {
+          "type": "original",
+          "title": "Die Grundlage der allgemeinen Relativitätstheorie",
+          "year": 1916,
+          "link": "https://en.wikisource.org/wiki/The_Foundation_of_the_General_Theory_of_Relativity"
         }
       ]
     },
@@ -26,9 +32,15 @@
           "title": "Phänomenologie des Geistes",
           "year": 1807,
           "link": "https://en.wikisource.org/wiki/Phenomenology_of_Spirit"
+        },
+        {
+          "type": "original",
+          "title": "Grundlinien der Philosophie des Rechts",
+          "year": 1820,
+          "link": "https://en.wikisource.org/wiki/Philosophy_of_Right"
         }
       ]
     }
   ],
-  "generated_at": 1757819587
+  "generated_at": 1757839934
 }

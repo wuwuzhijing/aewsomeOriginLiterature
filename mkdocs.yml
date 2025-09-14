@@ -1,6 +1,24 @@
 site_name: Literature Archive
+
 theme:
   name: material
+  features:
+    - search.suggest
+    - search.highlight
+    - search.share
+
 nav:
   - Home: index.md
-  - Authors: authors/*.md
+  - Authors: authors/index.md
+
+plugins:
+  - search:
+      indexing: full
+      prebuild_index: true
+  #- clean_newline
+  
+extra:
+  search:
+    language: en
+    placeholder: "搜索作者 / 文献…"
+    

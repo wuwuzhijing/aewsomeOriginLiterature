@@ -67,9 +67,8 @@ mkdocs serve
 ### 在线访问
 
 最新网站托管在 **GitHub Pages**：
-👉 [https://<你的用户名>.github.io/<仓库名>/](https://wuwuzhijing.github.io/awesomeOriginLiterature/)
+👉 [https://wuwuzhijing.github.io/awesomeOriginLiterature/](https://wuwuzhijing.github.io/awesomeOriginLiterature/)
 
-- 示例：https://wuwuzhijing.github.io/awesomeOriginLiterature/ 
 ---
 
 ## 🛠 如何贡献

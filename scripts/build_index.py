@@ -2,6 +2,7 @@
 import json, time, re
 from pathlib import Path
 import yaml
+from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 AUTHORS = ROOT / "authors"
@@ -57,20 +58,61 @@ for a in authors:
         if not works:
             return
         lines.append(f"## {title}")
-        for w in works:
+        for idx, w in enumerate(works, 1):
             year = w.get("year", "")
-            title = w.get("title", "Untitled")
-            link = w.get("link", "")
+            links = w.get("links", [])
             note = w.get("note", "")
-            # 标题加粗
-            lines.append(f"- **({year}) {title}**  ")
-            lines.append(f"  🔗 [{link}]({link})")
+            title = w.get("title", {})
+            
+            if isinstance(title, dict):
+                original = title.get("original", "Untitled")
+                en = title.get("en")
+                zh = title.get("zh")
+            else:
+                original = str(title)
+                en = zh = None
+            lines.append(f"{idx}. **({year}) {original}**  ")
+            #lines.append(f"- **({year}) {original}**  ")
+
+            # 翻译分行显示
+            if en:
+                lines.append(f"  *English:* {en}  ")
+            if zh:
+                lines.append(f"  *中文:* {zh}  ")
+
+            # 链接
+            if isinstance(links, str):  # 兼容旧数据
+                links = [links]
+
+            for link in links:
+                hostname = urlparse(link).hostname or "Link"
+                hostname = hostname.replace("www.", "")
+                lines.append(f"  🔗 [{hostname}]({link})  ")
+            # 备注说明
             if note:
                 lines.append(f"  > {note}")
-            lines.append("")  # 每个条目之间空行
 
-    render_block("原始文献", originals)
-    render_block("二手文献", secondary)
+            lines.append("")  # 条目之间空行
+
+    render_block("Original  Literature", originals)
+    render_block("Secondary Literature", secondary)
+    
+    resources = a.get("resources", [])
+
+    def render_resources(resources):
+        if not resources:
+            return
+        lines.append("## online resources")
+        for idx, r in enumerate(resources, 1):
+            title = r.get("title", "Untitled")
+            link = r.get("link", "")
+            note = r.get("note", "")
+            lines.append(f"{idx}. [{title}]({link})")
+            if note:
+                lines.append(f"  > {note}")
+            lines.append("")
+
+    render_resources(resources)
 
     content = "\n".join(lines)
     # 彻底清理字符串里的 '\n' 残留

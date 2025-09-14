@@ -67,8 +67,9 @@ mkdocs serve
 ### 在线访问
 
 最新网站托管在 **GitHub Pages**：
-👉 [https://<你的用户名>.github.io/<仓库名>/](https://<你的用户名>.github.io/<仓库名>/)
+👉 [https://<你的用户名>.github.io/<仓库名>/](https://wuwuzhijing.github.io/awesomeOriginLiterature/)
 
+- 示例：https://wuwuzhijing.github.io/awesomeOriginLiterature/ 
 ---
 
 ## 🛠 如何贡献
@@ -135,12 +136,3 @@ works:
 
 本项目采用 [MIT License](LICENSE)。
 文献链接仅作学术研究索引之用，原始版权归原作者及出版方所有。
-
-```
-
----
-
-👉 这个 README 已经把 **项目目标**、**使用方法**、**贡献方式** 和 **示例数据** 全都写好了。  
-
-要不要我再帮你生成一份 **简洁版英文 README**（方便国际贡献者参与）？
-```

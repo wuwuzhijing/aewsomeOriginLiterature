@@ -2,8 +2,6 @@
   <img src="logo.svg" alt="Literature Archive Logo" width="120"/>
 </p>
 
-## 📄 `README_CN.md`
-
 # 📚Literature Archive
 
 [![GitHub Pages](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://<你的用户名>.github.io/<仓库名>/)

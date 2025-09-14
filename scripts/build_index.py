@@ -45,11 +45,25 @@ with open(DOCS / "authors" / "index.md", "w", encoding="utf-8") as f:
 # 作者页面
 for a in authors:
     lines = []
+      
     lines.append(f"# {a['name']}")
     if a.get("tags"):
         lines.append(f"**Tags:** {', '.join(a['tags'])}")
     lines.append("")  # 空行
 
+    timeline_path = (AUTHORS / slugify(a['name'])[0].upper() /
+                 f"{slugify(a['name'])}_timeline.md")
+    print(f"Timeline check for {a['name']}: {timeline_path}")
+    if timeline_path.exists():
+        target_path = DOCS / "authors" / f"{slugify(a['name'])}_timeline.md"
+        print(f"Timeline check for {a['name']}: {target_path}")
+        # 复制内容到 docs
+        target_path.write_text(timeline_path.read_text(encoding="utf-8"), encoding="utf-8")
+
+        # 在作者页面加一个跳转链接
+        lines.append(f"[📜 {a['name']} 年表]({slugify(a['name'])}_timeline.md)")
+        lines.append("")
+        
     # 分组 works
     originals = [w for w in a.get("works", []) if w.get("type") == "original"]
     secondary = [w for w in a.get("works", []) if w.get("type") == "secondary"]

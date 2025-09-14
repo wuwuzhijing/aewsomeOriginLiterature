@@ -16,12 +16,15 @@
   🔗 [archive.org](https://archive.org/details/einsteinhislifeu0000isaa_m3x1)  
   > Walter Isaacson's biography of Albert Einstein, combining historical archives and letters, offers a comprehensive account of his scientific contributions and life experiences.
 
-## online resources
-1. [Albert Einstein Archives]()
-  > A digital storage platform for his personal archives, containing approximately 55,000 items including his manuscripts and letters
+## 其他资源
+1. Albert Einstein Archives
+   🔗 [https://www.albert-einstein.org](https://www.albert-einstein.org)  
+   > A digital storage platform for his personal archives, containing approximately 55,000 items including his manuscripts and letters
 
-2. [Published Volumes of Albert Einstein]()
-  > The Collected Papers of Albert Einstein
+2. Published Volumes of Albert Einstein
+   🔗 [https://www.einstein.caltech.edu/what-we-do/published-volumes](https://www.einstein.caltech.edu/what-we-do/published-volumes)  
+   > The Collected Papers of Albert Einstein
 
-3. [three Einstein manuscripts in Leiden]()
-  > At the initiative of Paul Ehrenfest, a special chair in Leiden was created for Albert Einstein, enabling him to come to our university for short periods of his choosing. On October 27, 1920, Einstein began his new position with an inaugural address on ether and relativity theory. The yearly visits stopped when Einstein fled Europe in 1933. The position was formally terminated by the German occupation.
+3. three Einstein manuscripts in Leiden
+   🔗 [https://www.lorentz.leidenuniv.nl/history/Einstein_archive/](https://www.lorentz.leidenuniv.nl/history/Einstein_archive/)  
+   > At the initiative of Paul Ehrenfest, a special chair in Leiden was created for Albert Einstein, enabling him to come to our university for short periods of his choosing. On October 27, 1920, Einstein began his new position with an inaugural address on ether and relativity theory. The yearly visits stopped when Einstein fled Europe in 1933. The position was formally terminated by the German occupation.

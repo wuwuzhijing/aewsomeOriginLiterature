@@ -11,14 +11,18 @@
           "type": "original",
           "title": "Zur Elektrodynamik bewegter Körper",
           "year": 1905,
-          "links": "https://ui.adsabs.harvard.edu/abs/1905AnP...322..891E/abstract",
+          "links": [
+            "https://ui.adsabs.harvard.edu/abs/1905AnP...322..891E/abstract"
+          ],
           "note": "The founding paper of the special theory of relativity, proposing the constancy of the speed of light and the principle of relativity"
         },
         {
           "type": "original",
           "title": "Die Grundlage der allgemeinen Relativitätstheorie",
           "year": 1916,
-          "links": "https://ui.adsabs.harvard.edu/abs/1916AnP...354..769E/abstract",
+          "links": [
+            "https://ui.adsabs.harvard.edu/abs/1916AnP...354..769E/abstract"
+          ],
           "note": "A systematic paper on general relativity, including the field equations of gravity"
         },
         {
@@ -35,17 +39,23 @@
       "resources": [
         {
           "title": "Albert Einstein Archives",
-          "links": "https://www.albert-einstein.org",
+          "links": [
+            "https://www.albert-einstein.org"
+          ],
           "note": "A digital storage platform for his personal archives, containing approximately 55,000 items including his manuscripts and letters"
         },
         {
           "title": "Published Volumes of Albert Einstein",
-          "links": "https://www.einstein.caltech.edu/what-we-do/published-volumes",
+          "links": [
+            "https://www.einstein.caltech.edu/what-we-do/published-volumes"
+          ],
           "note": "The Collected Papers of Albert Einstein"
         },
         {
           "title": "three Einstein manuscripts in Leiden",
-          "links": "https://www.lorentz.leidenuniv.nl/history/Einstein_archive/",
+          "links": [
+            "https://www.lorentz.leidenuniv.nl/history/Einstein_archive/"
+          ],
           "note": "At the initiative of Paul Ehrenfest, a special chair in Leiden was created for Albert Einstein, enabling him to come to our university for short periods of his choosing. On October 27, 1920, Einstein began his new position with an inaugural address on ether and relativity theory. The yearly visits stopped when Einstein fled Europe in 1933. The position was formally terminated by the German occupation."
         }
       ]
@@ -60,16 +70,16 @@
           "type": "original",
           "title": "Phänomenologie des Geistes",
           "year": 1807,
-          "link": "https://en.wikisource.org/wiki/Phenomenology_of_Spirit"
+          "links": "https://en.wikisource.org/wiki/Phenomenology_of_Spirit"
         },
         {
           "type": "original",
           "title": "Grundlinien der Philosophie des Rechts",
           "year": 1820,
-          "link": "https://en.wikisource.org/wiki/Philosophy_of_Right"
+          "links": "https://en.wikisource.org/wiki/Philosophy_of_Right"
         }
       ]
     }
   ],
-  "generated_at": 1757845186
+  "generated_at": 1757846216
 }

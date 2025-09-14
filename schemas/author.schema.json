@@ -13,7 +13,7 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["type", "title", "year", "link"],
+        "required": ["type", "title"],
         "properties": {
           "type": {
             "type": "string",
@@ -49,10 +49,14 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["title", "link"],
+        "required": ["title"],
         "properties": {
           "title": { "type": "string" },
-          "link": { "type": "string", "format": "uri" },
+		  "links": {
+		    "type": "array",
+		    "items": { "type": "string", "format": "uri" },
+		    "minItems": 1
+		  },
           "note": { "type": "string" }
         },
         "additionalProperties": false

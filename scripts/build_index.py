@@ -102,14 +102,23 @@ for a in authors:
     def render_resources(resources):
         if not resources:
             return
-        lines.append("## online resources")
+        lines.append("## 其他资源")
         for idx, r in enumerate(resources, 1):
             title = r.get("title", "Untitled")
-            link = r.get("link", "")
             note = r.get("note", "")
-            lines.append(f"{idx}. [{title}]({link})")
+
+            links = r.get("links", [])
+            if isinstance(links, str):
+                links = [links]
+
+            # 标题
+            lines.append(f"{idx}. {title}")
+            # 多个链接逐行展示
+            for link in links:
+                lines.append(f"   🔗 [{link}]({link})  ")
+
             if note:
-                lines.append(f"  > {note}")
+                lines.append(f"   > {note}")
             lines.append("")
 
     render_resources(resources)

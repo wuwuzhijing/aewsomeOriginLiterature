@@ -11,7 +11,7 @@
 一个开源的 **跨学科文献索引与可视化项目**，用于：
 - 🔎 持续收集各个领域的 **原始文献**（论文、专著、手稿）
 - 📖 关联同一作者的 **二手文献**（传记、评论、学术史研究）
-- 🌐 在 [GitHub Pages](https://wuwuzhihing.github.io/awesomeOriginLiterature/) 上生成 **可检索、可浏览的索引网站**
+- 🌐 在 [GitHub Pages](https://wuwuzhijing.github.io/awesomeOriginLiterature/)上生成 **可检索、可浏览的索引网站**
 
 👉 **我们不存放原文 PDF**，只保存元数据（标题、年份、标签、链接、备注），确保版权合规。
 

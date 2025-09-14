@@ -1,5 +1,6 @@
-## 📄 `README_EN.md`
-
+<p align="center">
+  <img src="logo.svg" alt="Literature Archive Logo" width="120"/>
+</p>
 
 # 📚 Literature Archive
 

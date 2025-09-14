@@ -1,0 +1,6 @@
+site_name: Literature Archive
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Authors: authors/*.md

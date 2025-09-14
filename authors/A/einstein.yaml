@@ -1,0 +1,7 @@
+name: "Albert Einstein"
+tags: ["physics", "relativity"]
+works:
+  - type: "original"
+    title: "Zur Elektrodynamik bewegter Körper"
+    year: 1905
+    link: "https://einsteinpapers.press.princeton.edu/vol2-doc/154"

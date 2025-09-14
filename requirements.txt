@@ -1,0 +1,5 @@
+pyyaml
+jsonschema
+requests
+mkdocs
+mkdocs-material

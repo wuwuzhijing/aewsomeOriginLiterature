@@ -1,0 +1,34 @@
+{
+  "authors": [
+    {
+      "name": "Albert Einstein",
+      "tags": [
+        "physics",
+        "relativity"
+      ],
+      "works": [
+        {
+          "type": "original",
+          "title": "Zur Elektrodynamik bewegter Körper",
+          "year": 1905,
+          "link": "https://einsteinpapers.press.princeton.edu/vol2-doc/154"
+        }
+      ]
+    },
+    {
+      "name": "G. W. F. Hegel",
+      "tags": [
+        "philosophy"
+      ],
+      "works": [
+        {
+          "type": "original",
+          "title": "Phänomenologie des Geistes",
+          "year": 1807,
+          "link": "https://en.wikisource.org/wiki/Phenomenology_of_Spirit"
+        }
+      ]
+    }
+  ],
+  "generated_at": 1757819587
+}

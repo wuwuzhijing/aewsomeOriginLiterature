@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Author file schema",
+  "type": "object",
+  "required": ["name", "tags", "works"],
+  "properties": {
+    "name": {"type": "string"},
+    "tags": {"type": "array", "items": {"type": "string"}},
+    "works": {"type": "array"}
+  }
+}

@@ -1,5 +1,5 @@
-name: "Albert Einstein"
-tags: ["physics", "relativity"]
+name: "Claude Elwood Shannon"
+tags: ["math", "communication"]
 works:
   - type: "original"
     title: "A Mathematical Theory of Commuication"

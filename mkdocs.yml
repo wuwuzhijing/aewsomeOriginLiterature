@@ -13,9 +13,9 @@ nav:
 
 plugins:
   - search:
-      indexing: full
-      prebuild_index: true
-  #- clean_newline
+      lang:
+        - en
+        - zh
   
 extra:
   search:

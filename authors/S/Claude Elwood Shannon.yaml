@@ -1,0 +1,22 @@
+name: "Albert Einstein"
+tags: ["physics", "relativity"]
+works:
+  - type: "original"
+    title: "A Mathematical Theory of Commuication"
+    year: 1948
+    links: 
+        - "https://ieeexplore.ieee.org/abstract/document/6773024/"
+    note: "The birth of communication theory on the Bell system technical journal."
+
+  # - type: "secondary"
+  #   title: "Einstein: His Life and Universe"
+  #   year: 2007
+  #   links:
+  #       - "http://lib.perdana.org.my/PLF/Digitisation/nixa%20hashim/OCR_team/000007_april10/1007112.pdf"
+  #       - "https://archive.org/details/einsteinhislifeu0000isaa_m3x1"
+  #   note: "Walter Isaacson's biography of Albert Einstein, combining historical archives and letters, offers a comprehensive account of his scientific contributions and life experiences."
+# resources:
+#   - title: "Albert Einstein Archives"
+#     links: 
+#         - "https://www.albert-einstein.org"
+#     note: "A digital storage platform for his personal archives, containing approximately 55,000 items including his manuscripts and letters"
